@@ -1,2 +1,10 @@
-# hackaton-challenge-ngl
-Repositorio del primer Hackaton Challenge del Bootcamp Fullstack Javascrip Trainee impartido por Edutecno, najo la coordinacion de SENCE y Talento Digital para Chile. Julio de 2024.
+# HACKATON CHALLENGE - JULIO 2024
+## Bootcamp Fullstck Javascript Trainee
+### Modulo 2: Fundamentos de Desarrollo Fron-End
+
+El desafio consistia en la entrega de imagenes de referencia con una estructura basica en HTML, la cual debiamos, por medio de CSS, maquetar de la forma que mostraban las imagenes.
+
+Teniamos permitido editar el HTML y re-estructurarlo según nos pareciera pertinente.
+
+Diseño Original (Imgenes de Referencia): Angel Daniel Fuentes
+HTML + CSS: Nicol Guzmán Labarca
