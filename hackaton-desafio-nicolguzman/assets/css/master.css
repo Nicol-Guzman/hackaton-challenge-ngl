@@ -1,0 +1,174 @@
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cabecera {
+    background-color: #f0b06c9a;
+    margin-top: 1%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 1%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burgerlogo {
+    width: 8%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #c4a174;
+    font-family: Bebas;
+}
+
+.menuizq {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.menuder {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #724422;
+    background-color: #c4a174;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #0057b300;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-color: #0056b3;
+}
+
+#titulo1 {
+    font-family: Bebas;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: #462b09;
+    text-shadow: 3px 3px 4px #caa676
+}
+
+#subt1 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    color: #654123;
+}
+
+.cabecera .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+#burger-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.burguer {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.burguer img{
+    width: 100%;
+    height: auto;
+    margin-top: -2%;
+    margin-bottom: -8%;
+}
+
+.burguer .nombre {
+    font-family: Bebas;
+    font-size: 35px;
+    margin-top: 0%;
+    margin-bottom: -8%;
+    color: #6b321f;
+    text-shadow: 3px 3px 4px #caa676
+}
+
+.burguer .contenido {
+    font-family: Roboto;
+    color: #462b09;
+}
+
+.burguer .boton {
+    font-family: Roboto;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    border: none;
+    color: #6f3723;
+    background-color: #dfc5a3;
+    cursor: pointer;
+}
+
+.burguer .boton:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px #6b321f
+}
+
+.pie {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    color: #d4b797;
+    background-color: #6b321f;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    border-radius: 40px 40px 0px 0px;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoCondensed-VariableFont_wght.ttf');
+}
