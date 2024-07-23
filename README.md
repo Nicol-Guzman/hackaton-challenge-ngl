@@ -9,4 +9,4 @@ Teniamos permitido editar el HTML y re-estructurarlo según nos pareciera pertin
 Diseño Original (Imgenes de Referencia): Angel Daniel Fuentes
 HTML + CSS: Nicol Guzmán Labarca
 
-Visita la pagina de muestra del desafio en el siguiente [link](https://nicol-guzman.github.io/hackaton-challenge-ngl)
+[SITIO ALOJADO EN GITHUB](https://nicol-guzman.github.io/hackaton-challenge-ngl)
